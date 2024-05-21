@@ -44,3 +44,25 @@ header nav ul{
     color: var(--color2);
     padding-right: 20px;
 }
+
+.painel{
+    position: relative;
+}
+
+.painel img{
+    width: 100%;
+    height: 500px;
+}
+
+.painel h2{
+    top: 0;
+    color: var(--color1);
+    position: absolute;
+}
+
+.painel p{
+    top: 0;
+    left: 100px;
+    color: var(--color1);
+    position: absolute;
+}
